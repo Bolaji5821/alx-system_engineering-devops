@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 # This script will print "Best School" 10 times to the STDOUT on the terminal
 
-for i in {1..10}
+for (( s=1; s<=10; s++))
 do
 echo "Best School"
-done
 
-echo "$i"
+done
